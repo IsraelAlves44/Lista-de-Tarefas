@@ -21,7 +21,6 @@ function createButtonErase(li) {
   const erase = document.createElement("button");
   erase.innerText = "apagar";
   erase.setAttribute("class", "apagar");
-  
   li.appendChild(erase);
 }
 
